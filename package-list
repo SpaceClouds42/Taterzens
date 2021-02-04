@@ -1,2 +1,7 @@
-net.fabricmc.example
-net.fabricmc.example.mixin
+org.samo_lego.taterzens
+org.samo_lego.taterzens.commands
+org.samo_lego.taterzens.interfaces
+org.samo_lego.taterzens.mixin
+org.samo_lego.taterzens.mixin.accessors
+org.samo_lego.taterzens.npc
+org.samo_lego.taterzens.storage
