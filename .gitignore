@@ -2,3 +2,5 @@
 .idea/
 build/
 run/
+.jekyll-cache/
+_site/
