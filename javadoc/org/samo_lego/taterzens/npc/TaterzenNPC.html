@@ -214,11 +214,11 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 </td>
 </tr>
 <tr class="rowColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#TaterzenNPC-net.minecraft.server.MinecraftServer-net.minecraft.server.world.ServerWorld-java.lang.String-net.minecraft.util.math.Vec3d-net.minecraft.util.math.Vec2f-">TaterzenNPC</a></span>(net.minecraft.server.MinecraftServer&nbsp;server,
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#TaterzenNPC-net.minecraft.server.MinecraftServer-net.minecraft.server.world.ServerWorld-java.lang.String-net.minecraft.util.math.Vec3d-float:A-">TaterzenNPC</a></span>(net.minecraft.server.MinecraftServer&nbsp;server,
            net.minecraft.server.world.ServerWorld&nbsp;world,
            java.lang.String&nbsp;displayName,
            net.minecraft.util.math.Vec3d&nbsp;pos,
-           net.minecraft.util.math.Vec2f&nbsp;rotation)</code>&nbsp;</td>
+           float[]&nbsp;rotations)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#TaterzenNPC-net.minecraft.server.network.ServerPlayerEntity-java.lang.String-">TaterzenNPC</a></span>(net.minecraft.server.network.ServerPlayerEntity&nbsp;owner,
@@ -241,46 +241,49 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#applySkin-com.mojang.authlib.GameProfile-boolean-">applySkin</a></span>(com.mojang.authlib.GameProfile&nbsp;texturesProfile,
+         boolean&nbsp;sendUpdate)</code>
+<div class="block">Applies skin from <code>GameProfile</code>.</div>
+</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#attack-net.minecraft.entity.LivingEntity-float-">attack</a></span>(net.minecraft.entity.LivingEntity&nbsp;target,
       float&nbsp;pullProgress)</code>&nbsp;</td>
 </tr>
-<tr id="i1" class="rowColor">
+<tr id="i2" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#canBeLeashedBy-net.minecraft.entity.player.PlayerEntity-">canBeLeashedBy</a></span>(net.minecraft.entity.player.PlayerEntity&nbsp;player)</code>&nbsp;</td>
 </tr>
-<tr id="i2" class="altColor">
+<tr id="i3" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#canUseRangedWeapon-net.minecraft.item.RangedWeaponItem-">canUseRangedWeapon</a></span>(net.minecraft.item.RangedWeaponItem&nbsp;weapon)</code>&nbsp;</td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#changeType-net.minecraft.entity.Entity-">changeType</a></span>(net.minecraft.entity.Entity&nbsp;entity)</code>&nbsp;</td>
 </tr>
-<tr id="i4" class="altColor">
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code>protected net.minecraft.sound.SoundEvent</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#getAmbientSound--">getAmbientSound</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i5" class="rowColor">
+<tr id="i6" class="altColor">
 <td class="colFirst"><code>protected net.minecraft.sound.SoundEvent</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#getDeathSound--">getDeathSound</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i6" class="altColor">
+<tr id="i7" class="rowColor">
 <td class="colFirst"><code>net.minecraft.entity.EntityType&lt;?&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#getFakeType--">getFakeType</a></span>()</code>
 <div class="block">Gets the entity type of the NPC used on client.</div>
 </td>
 </tr>
-<tr id="i7" class="rowColor">
+<tr id="i8" class="altColor">
 <td class="colFirst"><code>com.mojang.authlib.GameProfile</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#getGameProfile--">getGameProfile</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i8" class="altColor">
+<tr id="i9" class="rowColor">
 <td class="colFirst"><code>protected net.minecraft.sound.SoundEvent</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#getHurtSound-net.minecraft.entity.damage.DamageSource-">getHurtSound</a></span>(net.minecraft.entity.damage.DamageSource&nbsp;source)</code>&nbsp;</td>
-</tr>
-<tr id="i9" class="rowColor">
-<td class="colFirst"><code>net.minecraft.text.Text</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#getName--">getName</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i10" class="altColor">
 <td class="colFirst"><code>net.minecraft.util.ActionResult</code></td>
@@ -376,7 +379,7 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 <!--   -->
 </a>
 <h3>Methods inherited from class&nbsp;net.minecraft.entity.Entity</h3>
-<code>addPassenger, addScoreboardTag, addVelocity, adjustMovementForCollisions, adjustMovementForCollisions, adjustMovementForPiston, adjustMovementForSneaking, adjustSingleAxisMovementForCollisions, afterSpawn, applyMirror, applyRotation, bypassesLandingEffects, bypassesSteppingEffects, calculateBoundsForPose, calculateDimensions, calculateNextStepSoundDistance, canAddPassenger, canAvoidTraps, canBeSpectated, canClimb, canExplosionDestroyBlock, canFly, canStartRiding, canUsePortals, changeLookDirection, checkBlockCollision, collidesWith, copyFrom, copyPositionAndRotation, dealDamage, detach, distanceTo, doesNotCollide, doesRenderOnFire, dropItem, dropItem, dropStack, dropStack, entityDataRequiresOperator, equals, extinguish, fromTag, getAir, getBlockPos, getBodyY, getBoundingBox, getBrightnessAtEyes, getBurningDuration, getCameraPosVec, getCommandSource, getCustomName, getDataTracker, getDefaultName, getDefaultNetherPortalCooldown, getDisplayName, getEffectiveExplosionResistance, getEntityId, getEntityName, getEntityWorld, getEyeHeight, getEyeY, getFireTicks, getFlag, getFluidHeight, getHeight, getHeightOffset, getHighSpeedSplashSound, getHorizontalFacing, getHoverEvent, getItemsEquipped, getJumpVelocityMultiplier, getLandingBlockState, getLandingPos, getMaxAir, getMaxNetherPortalTime, getMountedHeightOffset, getMovementDirection, getOppositeRotationVector, getOppositeRotationVector, getParticleX, getParticleZ, getPassengerDismountOffset, getPassengerList, getPassengersDeep, getPermissionLevel, getPistonBehavior, getPitch, getPos, getPose, getPrimaryPassenger, getRandomBodyY, getRenderDistanceMultiplier, getRootVehicle, getRotationClient, getRotationVec, getRotationVecClient, getRotationVector, getRotationVector, getSavedEntityId, getScoreboardTags, getScoreboardTeam, getServer, getStandingEyeHeight, getTargetingMargin, getTeamColorValue, getTeleportTarget, getTrackedPosition, getType, getUuid, getUuidAsString, getVehicle, getVelocity, getVelocityAffectingPos, getWidth, getX, getY, getZ, handleAttack, hasCustomName, hashCode, hasNetherPortalCooldown, hasNoGravity, hasPassenger, hasPassengerDeep, hasPassengers, hasPassengerType, hasPermissionLevel, hasPlayerRider, hasVehicle, hasWings, interactAt, isAttackable, isChunkPosUpdateRequested, isCollidable, isConnectedThroughVehicle, isCustomNameVisible, isDescending, isFireImmune, isGlowing, isImmuneToExplosion, isInLava, isInRange, isInsideWaterOrBubbleColumn, isInSneakingPose, isInvisible, isInvisibleTo, isInvulnerable, isInvulnerableTo, isLiving, isOnFire, isOnGround, isPartOf, isSilent, isSneaking, isSneaky, isSpectator, isSprinting, isSubmergedIn, isSubmergedInWater, isSwimming, isTeammate, isTeamPlayer, isTouchingWater, isTouchingWaterOrRain, isWet, method_29239, method_29241, method_29919, method_30330, method_30632, method_30634, method_30950, method_30951, method_31166, move, moveToBoundingBoxCenter, moveToWorld, offsetX, offsetZ, onBlockCollision, onBubbleColumnCollision, onBubbleColumnSurfaceCollision, onKilledOther, onPassengerLookAround, onPlayerCollision, onStartedTrackingBy, onStoppedTrackingBy, onStruckByLightning, onSwimmingStart, playFlySound, playSound, playStepSound, playSwimSound, populateCrashReport, pushOutOfBlocks, raycast, refreshPosition, refreshPositionAfterTeleport, refreshPositionAfterTeleport, refreshPositionAndAngles, refreshPositionAndAngles, remove, removeAllPassengers, removePassenger, removeScoreboardTag, requestTeleport, resetNetherPortalCooldown, resetPosition, saveSelfToTag, saveToTag, sendSystemMessage, setAir, setBoundingBox, setCustomName, setCustomNameVisible, setEntityId, setFireTicks, setFlag, setGlowing, setInNetherPortal, setInvisible, setInvulnerable, setNoGravity, setOnFireFor, setOnFireFromLava, setPos, setPose, setRenderDistanceMultiplier, setRotation, setSilent, setSneaking, setSwimming, setUuid, setVelocity, setVelocity, setVelocityClient, setWorld, shouldBroadcastConsoleToOps, shouldLeaveSwimmingPose, shouldReceiveFeedback, shouldRender, shouldRender, shouldSetPositionOnLoad, shouldSpawnSprintingParticles, shouldTrackOutput, slowMovement, spawnSprintingParticles, squaredDistanceTo, squaredDistanceTo, squaredDistanceTo, squaredHorizontalLength, startRiding, streamPassengersRecursively, teleport, teleportRequested, tickNetherPortal, tickNetherPortalCooldown, toListTag, toListTag, toString, toTag, updateKilledAdvancementCriterion, updateMovementInFluid, updatePassengerForDismount, updatePassengerPosition, updatePosition, updatePositionAndAngles, updateSwimming, updateTrackedPosition, updateTrackedPosition, updateVelocity, updateWaterState, wouldPoseNotCollide</code></li>
+<code>addPassenger, addScoreboardTag, addVelocity, adjustMovementForCollisions, adjustMovementForCollisions, adjustMovementForPiston, adjustMovementForSneaking, adjustSingleAxisMovementForCollisions, afterSpawn, applyMirror, applyRotation, bypassesLandingEffects, bypassesSteppingEffects, calculateBoundsForPose, calculateDimensions, calculateNextStepSoundDistance, canAddPassenger, canAvoidTraps, canBeSpectated, canClimb, canExplosionDestroyBlock, canFly, canStartRiding, canUsePortals, changeLookDirection, checkBlockCollision, collidesWith, copyFrom, copyPositionAndRotation, dealDamage, detach, distanceTo, doesNotCollide, doesRenderOnFire, dropItem, dropItem, dropStack, dropStack, entityDataRequiresOperator, equals, extinguish, fromTag, getAir, getBlockPos, getBodyY, getBoundingBox, getBrightnessAtEyes, getBurningDuration, getCameraPosVec, getCommandSource, getCustomName, getDataTracker, getDefaultName, getDefaultNetherPortalCooldown, getDisplayName, getEffectiveExplosionResistance, getEntityId, getEntityName, getEntityWorld, getEyeHeight, getEyeY, getFireTicks, getFlag, getFluidHeight, getHeight, getHeightOffset, getHighSpeedSplashSound, getHorizontalFacing, getHoverEvent, getItemsEquipped, getJumpVelocityMultiplier, getLandingBlockState, getLandingPos, getMaxAir, getMaxNetherPortalTime, getMountedHeightOffset, getMovementDirection, getName, getOppositeRotationVector, getOppositeRotationVector, getParticleX, getParticleZ, getPassengerDismountOffset, getPassengerList, getPassengersDeep, getPermissionLevel, getPistonBehavior, getPitch, getPos, getPose, getPrimaryPassenger, getRandomBodyY, getRenderDistanceMultiplier, getRootVehicle, getRotationClient, getRotationVec, getRotationVecClient, getRotationVector, getRotationVector, getSavedEntityId, getScoreboardTags, getScoreboardTeam, getServer, getStandingEyeHeight, getTargetingMargin, getTeamColorValue, getTeleportTarget, getTrackedPosition, getType, getUuid, getUuidAsString, getVehicle, getVelocity, getVelocityAffectingPos, getWidth, getX, getY, getZ, handleAttack, hasCustomName, hashCode, hasNetherPortalCooldown, hasNoGravity, hasPassenger, hasPassengerDeep, hasPassengers, hasPassengerType, hasPermissionLevel, hasPlayerRider, hasVehicle, hasWings, interactAt, isAttackable, isChunkPosUpdateRequested, isCollidable, isConnectedThroughVehicle, isCustomNameVisible, isDescending, isFireImmune, isGlowing, isImmuneToExplosion, isInLava, isInRange, isInsideWaterOrBubbleColumn, isInSneakingPose, isInvisible, isInvisibleTo, isInvulnerable, isInvulnerableTo, isLiving, isOnFire, isOnGround, isPartOf, isSilent, isSneaking, isSneaky, isSpectator, isSprinting, isSubmergedIn, isSubmergedInWater, isSwimming, isTeammate, isTeamPlayer, isTouchingWater, isTouchingWaterOrRain, isWet, method_29239, method_29241, method_29919, method_30330, method_30632, method_30634, method_30950, method_30951, method_31166, move, moveToBoundingBoxCenter, moveToWorld, offsetX, offsetZ, onBlockCollision, onBubbleColumnCollision, onBubbleColumnSurfaceCollision, onKilledOther, onPassengerLookAround, onPlayerCollision, onStartedTrackingBy, onStoppedTrackingBy, onStruckByLightning, onSwimmingStart, playFlySound, playSound, playStepSound, playSwimSound, populateCrashReport, pushOutOfBlocks, raycast, refreshPosition, refreshPositionAfterTeleport, refreshPositionAfterTeleport, refreshPositionAndAngles, refreshPositionAndAngles, remove, removeAllPassengers, removePassenger, removeScoreboardTag, requestTeleport, resetNetherPortalCooldown, resetPosition, saveSelfToTag, saveToTag, sendSystemMessage, setAir, setBoundingBox, setCustomName, setCustomNameVisible, setEntityId, setFireTicks, setFlag, setGlowing, setInNetherPortal, setInvisible, setInvulnerable, setNoGravity, setOnFireFor, setOnFireFromLava, setPos, setPose, setRenderDistanceMultiplier, setRotation, setSilent, setSneaking, setSwimming, setUuid, setVelocity, setVelocity, setVelocityClient, setWorld, shouldBroadcastConsoleToOps, shouldLeaveSwimmingPose, shouldReceiveFeedback, shouldRender, shouldRender, shouldSetPositionOnLoad, shouldSpawnSprintingParticles, shouldTrackOutput, slowMovement, spawnSprintingParticles, squaredDistanceTo, squaredDistanceTo, squaredDistanceTo, squaredHorizontalLength, startRiding, streamPassengersRecursively, teleport, teleportRequested, tickNetherPortal, tickNetherPortalCooldown, toListTag, toListTag, toString, toTag, updateKilledAdvancementCriterion, updateMovementInFluid, updatePassengerForDismount, updatePassengerPosition, updatePosition, updatePositionAndAngles, updateSwimming, updateTrackedPosition, updateTrackedPosition, updateVelocity, updateWaterState, wouldPoseNotCollide</code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
@@ -415,7 +418,7 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 <pre>public&nbsp;TaterzenNPC(net.minecraft.entity.EntityType&lt;? extends net.minecraft.entity.mob.HostileEntity&gt;&nbsp;entityType,
                    net.minecraft.world.World&nbsp;world)</pre>
 <div class="block">Creates a TaterzenNPC.
- Internal use only. Use <a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#TaterzenNPC-net.minecraft.server.MinecraftServer-net.minecraft.server.world.ServerWorld-java.lang.String-net.minecraft.util.math.Vec3d-net.minecraft.util.math.Vec2f-"><code>TaterzenNPC(MinecraftServer, ServerWorld, String, Vec3d, Vec2f)</code></a> or <a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#TaterzenNPC-net.minecraft.server.network.ServerPlayerEntity-java.lang.String-"><code>TaterzenNPC(ServerPlayerEntity, String)</code></a></div>
+ Internal use only. Use <a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#TaterzenNPC-net.minecraft.server.MinecraftServer-net.minecraft.server.world.ServerWorld-java.lang.String-net.minecraft.util.math.Vec3d-float:A-"><code>TaterzenNPC(MinecraftServer, ServerWorld, String, Vec3d, float[])</code></a> or <a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#TaterzenNPC-net.minecraft.server.network.ServerPlayerEntity-java.lang.String-"><code>TaterzenNPC(ServerPlayerEntity, String)</code></a></div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>entityType</code> - </dd>
@@ -423,7 +426,7 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 </dl>
 </li>
 </ul>
-<a name="TaterzenNPC-net.minecraft.server.MinecraftServer-net.minecraft.server.world.ServerWorld-java.lang.String-net.minecraft.util.math.Vec3d-net.minecraft.util.math.Vec2f-">
+<a name="TaterzenNPC-net.minecraft.server.MinecraftServer-net.minecraft.server.world.ServerWorld-java.lang.String-net.minecraft.util.math.Vec3d-float:A-">
 <!--   -->
 </a>
 <ul class="blockList">
@@ -433,7 +436,7 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
                    net.minecraft.server.world.ServerWorld&nbsp;world,
                    java.lang.String&nbsp;displayName,
                    net.minecraft.util.math.Vec3d&nbsp;pos,
-                   net.minecraft.util.math.Vec2f&nbsp;rotation)</pre>
+                   float[]&nbsp;rotations)</pre>
 </li>
 </ul>
 <a name="TaterzenNPC-net.minecraft.server.network.ServerPlayerEntity-java.lang.String-">
@@ -554,6 +557,22 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 <pre>public&nbsp;void&nbsp;changeType(net.minecraft.entity.Entity&nbsp;entity)</pre>
 </li>
 </ul>
+<a name="applySkin-com.mojang.authlib.GameProfile-boolean-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>applySkin</h4>
+<pre>public&nbsp;void&nbsp;applySkin(com.mojang.authlib.GameProfile&nbsp;texturesProfile,
+                      boolean&nbsp;sendUpdate)</pre>
+<div class="block">Applies skin from <code>GameProfile</code>.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>texturesProfile</code> - GameProfile containing textures.</dd>
+<dd><code>sendUpdate</code> - whether to send the texture update.</dd>
+</dl>
+</li>
+</ul>
 <a name="getFakeType--">
 <!--   -->
 </a>
@@ -575,25 +594,11 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 <li class="blockList">
 <h4>isFakeTypeAlive</h4>
 <pre>public&nbsp;boolean&nbsp;isFakeTypeAlive()</pre>
-<div class="block">If fake type is an instance of <code>LivingEntity</code>.</div>
+<div class="block">If fake type is an instance of <code>LivingEntity</code>.
+ Used for packet sending, as living entities use different ones.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>true if so, otherwise false.</dd>
-</dl>
-</li>
-</ul>
-<a name="getName--">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>getName</h4>
-<pre>public&nbsp;net.minecraft.text.Text&nbsp;getName()</pre>
-<dl>
-<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code>getName</code>&nbsp;in interface&nbsp;<code>net.minecraft.util.Nameable</code></dd>
-<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
-<dd><code>getName</code>&nbsp;in class&nbsp;<code>net.minecraft.entity.Entity</code></dd>
 </dl>
 </li>
 </ul>
