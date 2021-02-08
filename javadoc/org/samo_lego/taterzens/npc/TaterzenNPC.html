@@ -17,7 +17,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -286,60 +286,73 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#getHurtSound-net.minecraft.entity.damage.DamageSource-">getHurtSound</a></span>(net.minecraft.entity.damage.DamageSource&nbsp;source)</code>&nbsp;</td>
 </tr>
 <tr id="i10" class="altColor">
-<td class="colFirst"><code>net.minecraft.util.ActionResult</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#interactMob-net.minecraft.entity.player.PlayerEntity-net.minecraft.util.Hand-">interactMob</a></span>(net.minecraft.entity.player.PlayerEntity&nbsp;player,
-           net.minecraft.util.Hand&nbsp;hand)</code>&nbsp;</td>
+<td class="colFirst"><code>protected void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#initDataTracker--">initDataTracker</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i11" class="rowColor">
-<td class="colFirst"><code>protected boolean</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#isAffectedByDaylight--">isAffectedByDaylight</a></span>()</code>&nbsp;</td>
+<td class="colFirst"><code>net.minecraft.util.ActionResult</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#interactAt-net.minecraft.entity.player.PlayerEntity-net.minecraft.util.math.Vec3d-net.minecraft.util.Hand-">interactAt</a></span>(net.minecraft.entity.player.PlayerEntity&nbsp;player,
+          net.minecraft.util.math.Vec3d&nbsp;pos,
+          net.minecraft.util.Hand&nbsp;hand)</code>&nbsp;</td>
 </tr>
 <tr id="i12" class="altColor">
 <td class="colFirst"><code>protected boolean</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#isDisallowedInPeaceful--">isDisallowedInPeaceful</a></span>()</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#isAffectedByDaylight--">isAffectedByDaylight</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i13" class="rowColor">
+<td class="colFirst"><code>protected boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#isDisallowedInPeaceful--">isDisallowedInPeaceful</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i14" class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#isEquipmentEditor-net.minecraft.entity.player.PlayerEntity-">isEquipmentEditor</a></span>(net.minecraft.entity.player.PlayerEntity&nbsp;player)</code>&nbsp;</td>
+</tr>
+<tr id="i15" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#isFakeTypeAlive--">isFakeTypeAlive</a></span>()</code>
 <div class="block">If fake type is an instance of <code>LivingEntity</code>.</div>
 </td>
 </tr>
-<tr id="i14" class="altColor">
+<tr id="i16" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#onDeath-net.minecraft.entity.damage.DamageSource-">onDeath</a></span>(net.minecraft.entity.damage.DamageSource&nbsp;source)</code>&nbsp;</td>
 </tr>
-<tr id="i15" class="rowColor">
+<tr id="i17" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#postShoot--">postShoot</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i16" class="altColor">
+<tr id="i18" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#readCustomDataFromTag-net.minecraft.nbt.CompoundTag-">readCustomDataFromTag</a></span>(net.minecraft.nbt.CompoundTag&nbsp;tag)</code>&nbsp;</td>
 </tr>
-<tr id="i17" class="rowColor">
+<tr id="i19" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#setCharging-boolean-">setCharging</a></span>(boolean&nbsp;charging)</code>&nbsp;</td>
 </tr>
-<tr id="i18" class="altColor">
+<tr id="i20" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#setCommand-java.lang.String-">setCommand</a></span>(java.lang.String&nbsp;command)</code>&nbsp;</td>
 </tr>
-<tr id="i19" class="rowColor">
+<tr id="i21" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#setEquipmentEditor-net.minecraft.entity.player.PlayerEntity-">setEquipmentEditor</a></span>(net.minecraft.entity.player.PlayerEntity&nbsp;player)</code>&nbsp;</td>
+</tr>
+<tr id="i22" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#shoot-net.minecraft.entity.LivingEntity-net.minecraft.item.ItemStack-net.minecraft.entity.projectile.ProjectileEntity-float-">shoot</a></span>(net.minecraft.entity.LivingEntity&nbsp;target,
      net.minecraft.item.ItemStack&nbsp;crossbow,
      net.minecraft.entity.projectile.ProjectileEntity&nbsp;projectile,
      float&nbsp;multiShotSpray)</code>&nbsp;</td>
 </tr>
-<tr id="i20" class="altColor">
+<tr id="i23" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#tickMovement--">tickMovement</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i21" class="rowColor">
+<tr id="i24" class="altColor">
 <td class="colFirst"><code>protected void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#updateDespawnCounter--">updateDespawnCounter</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i22" class="altColor">
+<tr id="i25" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html#writeCustomDataToTag-net.minecraft.nbt.CompoundTag-">writeCustomDataToTag</a></span>(net.minecraft.nbt.CompoundTag&nbsp;tag)</code>
 <div class="block">Saves Taterzen to <code>tag</code>.</div>
@@ -365,7 +378,7 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 <!--   -->
 </a>
 <h3>Methods inherited from class&nbsp;net.minecraft.entity.mob.MobEntity</h3>
-<code>attachLeash, baseTick, canBeControlledByRider, canEquip, canEquipmentSlotContain, canGather, canImmediatelyDespawn, canMobSpawn, canMoveVoluntarily, cannotDespawn, canPickupItem, canPickUpLoot, canSpawn, canTarget, canTarget, checkDespawn, createBodyControl, createMobAttributes, createNavigation, detachLeash, dropEquipment, dropLoot, equip, equipLootStack, equipStack, getArmorItems, getBodyYawSpeed, getCurrentExperience, getDropChance, getEquipmentForSlot, getEquippedStack, getHoldingEntity, getItemsHand, getJumpControl, getLimitPerChunk, getLookControl, getLookPitchSpeed, getLookYawSpeed, getLootContextBuilder, getLootTable, getLootTableId, getMainArm, getMinAmbientSoundDelay, getMoveControl, getNavigation, getPathfindingPenalty, getPositionTarget, getPositionTargetRange, getPreferredEquipmentSlot, getSafeFallDistance, getTarget, getVisibilityCache, handleStatus, hasPositionTarget, initDataTracker, initEquipment, initGoals, initialize, interact, isAiDisabled, isAttacking, isInWalkTargetRange, isInWalkTargetRange, isLeashed, isLeftHanded, isLogicalSideForUpdatingMovement, isPersistent, lookAtEntity, loot, method_29243, method_29244, method_30076, method_30758, method_30759, mobTick, movesIndependently, onEatingGrass, onPlayerSpawnedChild, playAmbientSound, playHurtSound, playSpawnEffects, prefersNewDamageableItem, prefersNewEquipment, sendAiDebugData, setAiDisabled, setAttacking, setBaby, setCanPickUpLoot, setEquipmentDropChance, setForwardSpeed, setHoldingEntityId, setLeftHanded, setMovementSpeed, setPathfindingPenalty, setPersistent, setPositionTarget, setSidewaysSpeed, setTarget, setUpwardSpeed, spawnsTooManyForEachTry, startRiding, swimUpward, tick, tickNewAi, tryAttack, tryEquip, turnHead, updateDropChances, updateEnchantments, updateGoalControls</code></li>
+<code>attachLeash, baseTick, canBeControlledByRider, canEquip, canEquipmentSlotContain, canGather, canImmediatelyDespawn, canMobSpawn, canMoveVoluntarily, cannotDespawn, canPickupItem, canPickUpLoot, canSpawn, canTarget, canTarget, checkDespawn, createBodyControl, createMobAttributes, createNavigation, detachLeash, dropEquipment, dropLoot, equip, equipLootStack, equipStack, getArmorItems, getBodyYawSpeed, getCurrentExperience, getDropChance, getEquipmentForSlot, getEquippedStack, getHoldingEntity, getItemsHand, getJumpControl, getLimitPerChunk, getLookControl, getLookPitchSpeed, getLookYawSpeed, getLootContextBuilder, getLootTable, getLootTableId, getMainArm, getMinAmbientSoundDelay, getMoveControl, getNavigation, getPathfindingPenalty, getPositionTarget, getPositionTargetRange, getPreferredEquipmentSlot, getSafeFallDistance, getTarget, getVisibilityCache, handleStatus, hasPositionTarget, initEquipment, initGoals, initialize, interact, interactMob, isAiDisabled, isAttacking, isInWalkTargetRange, isInWalkTargetRange, isLeashed, isLeftHanded, isLogicalSideForUpdatingMovement, isPersistent, lookAtEntity, loot, method_29243, method_29244, method_30076, method_30758, method_30759, mobTick, movesIndependently, onEatingGrass, onPlayerSpawnedChild, playAmbientSound, playHurtSound, playSpawnEffects, prefersNewDamageableItem, prefersNewEquipment, sendAiDebugData, setAiDisabled, setAttacking, setBaby, setCanPickUpLoot, setEquipmentDropChance, setForwardSpeed, setHoldingEntityId, setLeftHanded, setMovementSpeed, setPathfindingPenalty, setPersistent, setPositionTarget, setSidewaysSpeed, setTarget, setUpwardSpeed, spawnsTooManyForEachTry, startRiding, swimUpward, tick, tickNewAi, tryAttack, tryEquip, turnHead, updateDropChances, updateEnchantments, updateGoalControls</code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.net.minecraft.entity.LivingEntity">
@@ -379,7 +392,7 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 <!--   -->
 </a>
 <h3>Methods inherited from class&nbsp;net.minecraft.entity.Entity</h3>
-<code>addPassenger, addScoreboardTag, addVelocity, adjustMovementForCollisions, adjustMovementForCollisions, adjustMovementForPiston, adjustMovementForSneaking, adjustSingleAxisMovementForCollisions, afterSpawn, applyMirror, applyRotation, bypassesLandingEffects, bypassesSteppingEffects, calculateBoundsForPose, calculateDimensions, calculateNextStepSoundDistance, canAddPassenger, canAvoidTraps, canBeSpectated, canClimb, canExplosionDestroyBlock, canFly, canStartRiding, canUsePortals, changeLookDirection, checkBlockCollision, collidesWith, copyFrom, copyPositionAndRotation, dealDamage, detach, distanceTo, doesNotCollide, doesRenderOnFire, dropItem, dropItem, dropStack, dropStack, entityDataRequiresOperator, equals, extinguish, fromTag, getAir, getBlockPos, getBodyY, getBoundingBox, getBrightnessAtEyes, getBurningDuration, getCameraPosVec, getCommandSource, getCustomName, getDataTracker, getDefaultName, getDefaultNetherPortalCooldown, getDisplayName, getEffectiveExplosionResistance, getEntityId, getEntityName, getEntityWorld, getEyeHeight, getEyeY, getFireTicks, getFlag, getFluidHeight, getHeight, getHeightOffset, getHighSpeedSplashSound, getHorizontalFacing, getHoverEvent, getItemsEquipped, getJumpVelocityMultiplier, getLandingBlockState, getLandingPos, getMaxAir, getMaxNetherPortalTime, getMountedHeightOffset, getMovementDirection, getName, getOppositeRotationVector, getOppositeRotationVector, getParticleX, getParticleZ, getPassengerDismountOffset, getPassengerList, getPassengersDeep, getPermissionLevel, getPistonBehavior, getPitch, getPos, getPose, getPrimaryPassenger, getRandomBodyY, getRenderDistanceMultiplier, getRootVehicle, getRotationClient, getRotationVec, getRotationVecClient, getRotationVector, getRotationVector, getSavedEntityId, getScoreboardTags, getScoreboardTeam, getServer, getStandingEyeHeight, getTargetingMargin, getTeamColorValue, getTeleportTarget, getTrackedPosition, getType, getUuid, getUuidAsString, getVehicle, getVelocity, getVelocityAffectingPos, getWidth, getX, getY, getZ, handleAttack, hasCustomName, hashCode, hasNetherPortalCooldown, hasNoGravity, hasPassenger, hasPassengerDeep, hasPassengers, hasPassengerType, hasPermissionLevel, hasPlayerRider, hasVehicle, hasWings, interactAt, isAttackable, isChunkPosUpdateRequested, isCollidable, isConnectedThroughVehicle, isCustomNameVisible, isDescending, isFireImmune, isGlowing, isImmuneToExplosion, isInLava, isInRange, isInsideWaterOrBubbleColumn, isInSneakingPose, isInvisible, isInvisibleTo, isInvulnerable, isInvulnerableTo, isLiving, isOnFire, isOnGround, isPartOf, isSilent, isSneaking, isSneaky, isSpectator, isSprinting, isSubmergedIn, isSubmergedInWater, isSwimming, isTeammate, isTeamPlayer, isTouchingWater, isTouchingWaterOrRain, isWet, method_29239, method_29241, method_29919, method_30330, method_30632, method_30634, method_30950, method_30951, method_31166, move, moveToBoundingBoxCenter, moveToWorld, offsetX, offsetZ, onBlockCollision, onBubbleColumnCollision, onBubbleColumnSurfaceCollision, onKilledOther, onPassengerLookAround, onPlayerCollision, onStartedTrackingBy, onStoppedTrackingBy, onStruckByLightning, onSwimmingStart, playFlySound, playSound, playStepSound, playSwimSound, populateCrashReport, pushOutOfBlocks, raycast, refreshPosition, refreshPositionAfterTeleport, refreshPositionAfterTeleport, refreshPositionAndAngles, refreshPositionAndAngles, remove, removeAllPassengers, removePassenger, removeScoreboardTag, requestTeleport, resetNetherPortalCooldown, resetPosition, saveSelfToTag, saveToTag, sendSystemMessage, setAir, setBoundingBox, setCustomName, setCustomNameVisible, setEntityId, setFireTicks, setFlag, setGlowing, setInNetherPortal, setInvisible, setInvulnerable, setNoGravity, setOnFireFor, setOnFireFromLava, setPos, setPose, setRenderDistanceMultiplier, setRotation, setSilent, setSneaking, setSwimming, setUuid, setVelocity, setVelocity, setVelocityClient, setWorld, shouldBroadcastConsoleToOps, shouldLeaveSwimmingPose, shouldReceiveFeedback, shouldRender, shouldRender, shouldSetPositionOnLoad, shouldSpawnSprintingParticles, shouldTrackOutput, slowMovement, spawnSprintingParticles, squaredDistanceTo, squaredDistanceTo, squaredDistanceTo, squaredHorizontalLength, startRiding, streamPassengersRecursively, teleport, teleportRequested, tickNetherPortal, tickNetherPortalCooldown, toListTag, toListTag, toString, toTag, updateKilledAdvancementCriterion, updateMovementInFluid, updatePassengerForDismount, updatePassengerPosition, updatePosition, updatePositionAndAngles, updateSwimming, updateTrackedPosition, updateTrackedPosition, updateVelocity, updateWaterState, wouldPoseNotCollide</code></li>
+<code>addPassenger, addScoreboardTag, addVelocity, adjustMovementForCollisions, adjustMovementForCollisions, adjustMovementForPiston, adjustMovementForSneaking, adjustSingleAxisMovementForCollisions, afterSpawn, applyMirror, applyRotation, bypassesLandingEffects, bypassesSteppingEffects, calculateBoundsForPose, calculateDimensions, calculateNextStepSoundDistance, canAddPassenger, canAvoidTraps, canBeSpectated, canClimb, canExplosionDestroyBlock, canFly, canStartRiding, canUsePortals, changeLookDirection, checkBlockCollision, collidesWith, copyFrom, copyPositionAndRotation, dealDamage, detach, distanceTo, doesNotCollide, doesRenderOnFire, dropItem, dropItem, dropStack, dropStack, entityDataRequiresOperator, equals, extinguish, fromTag, getAir, getBlockPos, getBodyY, getBoundingBox, getBrightnessAtEyes, getBurningDuration, getCameraPosVec, getCommandSource, getCustomName, getDataTracker, getDefaultName, getDefaultNetherPortalCooldown, getDisplayName, getEffectiveExplosionResistance, getEntityId, getEntityName, getEntityWorld, getEyeHeight, getEyeY, getFireTicks, getFlag, getFluidHeight, getHeight, getHeightOffset, getHighSpeedSplashSound, getHorizontalFacing, getHoverEvent, getItemsEquipped, getJumpVelocityMultiplier, getLandingBlockState, getLandingPos, getMaxAir, getMaxNetherPortalTime, getMountedHeightOffset, getMovementDirection, getName, getOppositeRotationVector, getOppositeRotationVector, getParticleX, getParticleZ, getPassengerDismountOffset, getPassengerList, getPassengersDeep, getPermissionLevel, getPistonBehavior, getPitch, getPos, getPose, getPrimaryPassenger, getRandomBodyY, getRenderDistanceMultiplier, getRootVehicle, getRotationClient, getRotationVec, getRotationVecClient, getRotationVector, getRotationVector, getSavedEntityId, getScoreboardTags, getScoreboardTeam, getServer, getStandingEyeHeight, getTargetingMargin, getTeamColorValue, getTeleportTarget, getTrackedPosition, getType, getUuid, getUuidAsString, getVehicle, getVelocity, getVelocityAffectingPos, getWidth, getX, getY, getZ, handleAttack, hasCustomName, hashCode, hasNetherPortalCooldown, hasNoGravity, hasPassenger, hasPassengerDeep, hasPassengers, hasPassengerType, hasPermissionLevel, hasPlayerRider, hasVehicle, hasWings, isAttackable, isChunkPosUpdateRequested, isCollidable, isConnectedThroughVehicle, isCustomNameVisible, isDescending, isFireImmune, isGlowing, isImmuneToExplosion, isInLava, isInRange, isInsideWaterOrBubbleColumn, isInSneakingPose, isInvisible, isInvisibleTo, isInvulnerable, isInvulnerableTo, isLiving, isOnFire, isOnGround, isPartOf, isSilent, isSneaking, isSneaky, isSpectator, isSprinting, isSubmergedIn, isSubmergedInWater, isSwimming, isTeammate, isTeamPlayer, isTouchingWater, isTouchingWaterOrRain, isWet, method_29239, method_29241, method_29919, method_30330, method_30632, method_30634, method_30950, method_30951, method_31166, move, moveToBoundingBoxCenter, moveToWorld, offsetX, offsetZ, onBlockCollision, onBubbleColumnCollision, onBubbleColumnSurfaceCollision, onKilledOther, onPassengerLookAround, onPlayerCollision, onStartedTrackingBy, onStoppedTrackingBy, onStruckByLightning, onSwimmingStart, playFlySound, playSound, playStepSound, playSwimSound, populateCrashReport, pushOutOfBlocks, raycast, refreshPosition, refreshPositionAfterTeleport, refreshPositionAfterTeleport, refreshPositionAndAngles, refreshPositionAndAngles, remove, removeAllPassengers, removePassenger, removeScoreboardTag, requestTeleport, resetNetherPortalCooldown, resetPosition, saveSelfToTag, saveToTag, sendSystemMessage, setAir, setBoundingBox, setCustomName, setCustomNameVisible, setEntityId, setFireTicks, setFlag, setGlowing, setInNetherPortal, setInvisible, setInvulnerable, setNoGravity, setOnFireFor, setOnFireFromLava, setPos, setPose, setRenderDistanceMultiplier, setRotation, setSilent, setSneaking, setSwimming, setUuid, setVelocity, setVelocity, setVelocityClient, setWorld, shouldBroadcastConsoleToOps, shouldLeaveSwimmingPose, shouldReceiveFeedback, shouldRender, shouldRender, shouldSetPositionOnLoad, shouldSpawnSprintingParticles, shouldTrackOutput, slowMovement, spawnSprintingParticles, squaredDistanceTo, squaredDistanceTo, squaredDistanceTo, squaredHorizontalLength, startRiding, streamPassengersRecursively, teleport, teleportRequested, tickNetherPortal, tickNetherPortalCooldown, toListTag, toListTag, toString, toTag, updateKilledAdvancementCriterion, updateMovementInFluid, updatePassengerForDismount, updatePassengerPosition, updatePosition, updatePositionAndAngles, updateSwimming, updateTrackedPosition, updateTrackedPosition, updateVelocity, updateWaterState, wouldPoseNotCollide</code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a name="methods.inherited.from.class.java.lang.Object">
@@ -602,6 +615,19 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 </dl>
 </li>
 </ul>
+<a name="initDataTracker--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>initDataTracker</h4>
+<pre>protected&nbsp;void&nbsp;initDataTracker()</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
+<dd><code>initDataTracker</code>&nbsp;in class&nbsp;<code>net.minecraft.entity.mob.MobEntity</code></dd>
+</dl>
+</li>
+</ul>
 <a name="isAffectedByDaylight--">
 <!--   -->
 </a>
@@ -654,17 +680,36 @@ implements net.minecraft.entity.CrossbowUser, net.minecraft.entity.ai.RangedAtta
 </dl>
 </li>
 </ul>
-<a name="interactMob-net.minecraft.entity.player.PlayerEntity-net.minecraft.util.Hand-">
+<a name="setEquipmentEditor-net.minecraft.entity.player.PlayerEntity-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>interactMob</h4>
-<pre>public&nbsp;net.minecraft.util.ActionResult&nbsp;interactMob(net.minecraft.entity.player.PlayerEntity&nbsp;player,
-                                                   net.minecraft.util.Hand&nbsp;hand)</pre>
+<h4>setEquipmentEditor</h4>
+<pre>public&nbsp;void&nbsp;setEquipmentEditor(net.minecraft.entity.player.PlayerEntity&nbsp;player)</pre>
+</li>
+</ul>
+<a name="isEquipmentEditor-net.minecraft.entity.player.PlayerEntity-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>isEquipmentEditor</h4>
+<pre>public&nbsp;boolean&nbsp;isEquipmentEditor(net.minecraft.entity.player.PlayerEntity&nbsp;player)</pre>
+</li>
+</ul>
+<a name="interactAt-net.minecraft.entity.player.PlayerEntity-net.minecraft.util.math.Vec3d-net.minecraft.util.Hand-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>interactAt</h4>
+<pre>public&nbsp;net.minecraft.util.ActionResult&nbsp;interactAt(net.minecraft.entity.player.PlayerEntity&nbsp;player,
+                                                  net.minecraft.util.math.Vec3d&nbsp;pos,
+                                                  net.minecraft.util.Hand&nbsp;hand)</pre>
 <dl>
 <dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
-<dd><code>interactMob</code>&nbsp;in class&nbsp;<code>net.minecraft.entity.mob.MobEntity</code></dd>
+<dd><code>interactAt</code>&nbsp;in class&nbsp;<code>net.minecraft.entity.Entity</code></dd>
 </dl>
 </li>
 </ul>
