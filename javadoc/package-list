@@ -5,3 +5,4 @@ org.samo_lego.taterzens.mixin
 org.samo_lego.taterzens.mixin.accessors
 org.samo_lego.taterzens.npc
 org.samo_lego.taterzens.storage
+org.samo_lego.taterzens.util
