@@ -1,5 +1,6 @@
 org.samo_lego.taterzens
 org.samo_lego.taterzens.api
+org.samo_lego.taterzens.client_fix
 org.samo_lego.taterzens.commands
 org.samo_lego.taterzens.event
 org.samo_lego.taterzens.interfaces
