@@ -9,3 +9,5 @@ layout: home
 
 <br>
 *An NPC mod attempt for Fabric modloader.*
+
+![screenshot](./docs/assets/img/main_background.png)
