@@ -124,7 +124,9 @@ extends java.lang.Object</pre>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static class&nbsp;</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html" title="enum in org.samo_lego.taterzens.npc">NPCData.Movement</a></span></code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html" title="enum in org.samo_lego.taterzens.npc">NPCData.Movement</a></span></code>
+<div class="block">Types of movement a Taterzen can perform.</div>
+</td>
 </tr>
 </table>
 </li>
@@ -146,32 +148,46 @@ extends java.lang.Object</pre>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#command">command</a></span></code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#currentMoveTarget">currentMoveTarget</a></span></code>&nbsp;</td>
+</tr>
+<tr class="altColor">
 <td class="colFirst"><code>net.minecraft.entity.EntityType&lt;?&gt;</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#entityType">entityType</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>net.minecraft.entity.player.PlayerEntity</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#equipmentEditor">equipmentEditor</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#fakeTypeAlive">fakeTypeAlive</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#freeWill">freeWill</a></span></code>&nbsp;</td>
-</tr>
 <tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#hostile">hostile</a></span></code>
+<div class="block">Used for att</div>
+</td>
+</tr>
+<tr class="altColor">
 <td class="colFirst"><code>long</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#lastActionTime">lastActionTime</a></span></code>&nbsp;</td>
 </tr>
-<tr class="altColor">
+<tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#leashable">leashable</a></span></code>&nbsp;</td>
 </tr>
-<tr class="rowColor">
+<tr class="altColor">
 <td class="colFirst"><code><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html" title="enum in org.samo_lego.taterzens.npc">NPCData.Movement</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#movement">movement</a></span></code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>java.util.ArrayList&lt;net.minecraft.util.math.BlockPos&gt;</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#pathTargets">pathTargets</a></span></code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.html#pushable">pushable</a></span></code>&nbsp;</td>
 </tr>
 </table>
 </li>
@@ -238,13 +254,14 @@ extends java.lang.Object</pre>
 <pre>public&nbsp;boolean fakeTypeAlive</pre>
 </li>
 </ul>
-<a name="freeWill">
+<a name="hostile">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
-<h4>freeWill</h4>
-<pre>public&nbsp;boolean freeWill</pre>
+<h4>hostile</h4>
+<pre>public&nbsp;boolean hostile</pre>
+<div class="block">Used for att</div>
 </li>
 </ul>
 <a name="leashable">
@@ -286,10 +303,37 @@ extends java.lang.Object</pre>
 <a name="movement">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>movement</h4>
 <pre>public&nbsp;<a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html" title="enum in org.samo_lego.taterzens.npc">NPCData.Movement</a> movement</pre>
+</li>
+</ul>
+<a name="pathTargets">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>pathTargets</h4>
+<pre>public&nbsp;java.util.ArrayList&lt;net.minecraft.util.math.BlockPos&gt; pathTargets</pre>
+</li>
+</ul>
+<a name="currentMoveTarget">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>currentMoveTarget</h4>
+<pre>public&nbsp;int currentMoveTarget</pre>
+</li>
+</ul>
+<a name="pushable">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>pushable</h4>
+<pre>public&nbsp;boolean pushable</pre>
 </li>
 </ul>
 </li>

@@ -17,7 +17,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":6,"i1":6};
+var methods = {"i0":6,"i1":6,"i2":6,"i3":6};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -48,7 +48,7 @@ var activeTableTab = "activeTableTab";
 <div class="subNav">
 <ul class="navList">
 <li>Prev&nbsp;Class</li>
-<li>Next&nbsp;Class</li>
+<li><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenPlayer.html" title="interface in org.samo_lego.taterzens.interfaces"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../index.html?org/samo_lego/taterzens/interfaces/TaterzenEditor.html" target="_top">Frames</a></li>
@@ -104,6 +104,7 @@ var activeTableTab = "activeTableTab";
 <hr>
 <br>
 <pre>public interface <span class="typeNameLabel">TaterzenEditor</span></pre>
+<div class="block">Interface for players who work with TaterzenNPCs.</div>
 </li>
 </ul>
 </div>
@@ -127,8 +128,16 @@ var activeTableTab = "activeTableTab";
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html#getNpc--">getNpc</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i1" class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html#inPathEditMode--">inPathEditMode</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html#selectNpc-org.samo_lego.taterzens.npc.TaterzenNPC-">selectNpc</a></span>(<a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html" title="class in org.samo_lego.taterzens.npc">TaterzenNPC</a>&nbsp;npc)</code>&nbsp;</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html#setPathEditMode-boolean-">setPathEditMode</a></span>(boolean&nbsp;editMode)</code>&nbsp;</td>
 </tr>
 </table>
 </li>
@@ -157,10 +166,28 @@ var activeTableTab = "activeTableTab";
 <a name="selectNpc-org.samo_lego.taterzens.npc.TaterzenNPC-">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>selectNpc</h4>
 <pre>void&nbsp;selectNpc(<a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html" title="class in org.samo_lego.taterzens.npc">TaterzenNPC</a>&nbsp;npc)</pre>
+</li>
+</ul>
+<a name="inPathEditMode--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inPathEditMode</h4>
+<pre>boolean&nbsp;inPathEditMode()</pre>
+</li>
+</ul>
+<a name="setPathEditMode-boolean-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>setPathEditMode</h4>
+<pre>void&nbsp;setPathEditMode(boolean&nbsp;editMode)</pre>
 </li>
 </ul>
 </li>
@@ -191,7 +218,7 @@ var activeTableTab = "activeTableTab";
 <div class="subNav">
 <ul class="navList">
 <li>Prev&nbsp;Class</li>
-<li>Next&nbsp;Class</li>
+<li><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenPlayer.html" title="interface in org.samo_lego.taterzens.interfaces"><span class="typeNameLink">Next&nbsp;Class</span></a></li>
 </ul>
 <ul class="navList">
 <li><a href="../../../../index.html?org/samo_lego/taterzens/interfaces/TaterzenEditor.html" target="_top">Frames</a></li>

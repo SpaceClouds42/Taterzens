@@ -72,11 +72,14 @@
 <span class="packageHierarchyLabel">Package Hierarchies:</span>
 <ul class="horizontal">
 <li><a href="org/samo_lego/taterzens/package-tree.html">org.samo_lego.taterzens</a>, </li>
+<li><a href="org/samo_lego/taterzens/api/package-tree.html">org.samo_lego.taterzens.api</a>, </li>
 <li><a href="org/samo_lego/taterzens/commands/package-tree.html">org.samo_lego.taterzens.commands</a>, </li>
+<li><a href="org/samo_lego/taterzens/event/package-tree.html">org.samo_lego.taterzens.event</a>, </li>
 <li><a href="org/samo_lego/taterzens/interfaces/package-tree.html">org.samo_lego.taterzens.interfaces</a>, </li>
 <li><a href="org/samo_lego/taterzens/mixin/package-tree.html">org.samo_lego.taterzens.mixin</a>, </li>
 <li><a href="org/samo_lego/taterzens/mixin/accessors/package-tree.html">org.samo_lego.taterzens.mixin.accessors</a>, </li>
 <li><a href="org/samo_lego/taterzens/npc/package-tree.html">org.samo_lego.taterzens.npc</a>, </li>
+<li><a href="org/samo_lego/taterzens/npc/ai/goal/package-tree.html">org.samo_lego.taterzens.npc.ai.goal</a>, </li>
 <li><a href="org/samo_lego/taterzens/storage/package-tree.html">org.samo_lego.taterzens.storage</a>, </li>
 <li><a href="org/samo_lego/taterzens/util/package-tree.html">org.samo_lego.taterzens.util</a></li>
 </ul>
@@ -86,6 +89,7 @@
 <ul>
 <li type="circle">java.lang.Object
 <ul>
+<li type="circle">org.samo_lego.taterzens.event.<a href="org/samo_lego/taterzens/event/BlockInteractEvent.html" title="class in org.samo_lego.taterzens.event"><span class="typeNameLink">BlockInteractEvent</span></a> (implements net.fabricmc.fabric.api.event.player.UseBlockCallback)</li>
 <li type="circle">net.minecraft.entity.Entity (implements net.minecraft.server.command.CommandOutput, net.minecraft.util.Nameable)
 <ul>
 <li type="circle">net.minecraft.entity.LivingEntity
@@ -107,15 +111,35 @@
 </li>
 </ul>
 </li>
+<li type="circle">net.minecraft.entity.ai.goal.Goal
+<ul>
+<li type="circle">net.minecraft.entity.ai.goal.GoToWalkTargetGoal
+<ul>
+<li type="circle">org.samo_lego.taterzens.npc.ai.goal.<a href="org/samo_lego/taterzens/npc/ai/goal/DirectPathGoal.html" title="class in org.samo_lego.taterzens.npc.ai.goal"><span class="typeNameLink">DirectPathGoal</span></a></li>
+</ul>
+</li>
+<li type="circle">net.minecraft.entity.ai.goal.MeleeAttackGoal
+<ul>
+<li type="circle">org.samo_lego.taterzens.npc.ai.goal.<a href="org/samo_lego/taterzens/npc/ai/goal/ReachMeleeAttackGoal.html" title="class in org.samo_lego.taterzens.npc.ai.goal"><span class="typeNameLink">ReachMeleeAttackGoal</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li type="circle">org.samo_lego.taterzens.commands.<a href="org/samo_lego/taterzens/commands/NpcCommand.html" title="class in org.samo_lego.taterzens.commands"><span class="typeNameLink">NpcCommand</span></a></li>
 <li type="circle">org.samo_lego.taterzens.npc.<a href="org/samo_lego/taterzens/npc/NPCData.html" title="class in org.samo_lego.taterzens.npc"><span class="typeNameLink">NPCData</span></a></li>
 <li type="circle">org.samo_lego.taterzens.mixin.<a href="org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html" title="class in org.samo_lego.taterzens.mixin"><span class="typeNameLink">ServerPlayerEntityMixinCast_TaterzenEditor</span></a> (implements org.samo_lego.taterzens.interfaces.<a href="org/samo_lego/taterzens/interfaces/TaterzenEditor.html" title="interface in org.samo_lego.taterzens.interfaces">TaterzenEditor</a>)</li>
-<li type="circle">org.samo_lego.taterzens.mixin.<a href="org/samo_lego/taterzens/mixin/ServerPlayNetworkHandlerMixin.html" title="class in org.samo_lego.taterzens.mixin"><span class="typeNameLink">ServerPlayNetworkHandlerMixin</span></a></li>
+<li type="circle">org.samo_lego.taterzens.mixin.<a href="org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenPlayer.html" title="class in org.samo_lego.taterzens.mixin"><span class="typeNameLink">ServerPlayerEntityMixinCast_TaterzenPlayer</span></a> (implements org.samo_lego.taterzens.interfaces.<a href="org/samo_lego/taterzens/interfaces/TaterzenPlayer.html" title="interface in org.samo_lego.taterzens.interfaces">TaterzenPlayer</a>)</li>
+<li type="circle">org.samo_lego.taterzens.mixin.<a href="org/samo_lego/taterzens/mixin/ServerPlayInteractionManagerMixin.html" title="class in org.samo_lego.taterzens.mixin"><span class="typeNameLink">ServerPlayInteractionManagerMixin</span></a></li>
+<li type="circle">org.samo_lego.taterzens.mixin.<a href="org/samo_lego/taterzens/mixin/ServerPlayNetworkHandlerMixin_PacketFaker.html" title="class in org.samo_lego.taterzens.mixin"><span class="typeNameLink">ServerPlayNetworkHandlerMixin_PacketFaker</span></a></li>
 <li type="circle">org.samo_lego.taterzens.storage.<a href="org/samo_lego/taterzens/storage/TaterConfig.html" title="class in org.samo_lego.taterzens.storage"><span class="typeNameLink">TaterConfig</span></a></li>
+<li type="circle">org.samo_lego.taterzens.storage.<a href="org/samo_lego/taterzens/storage/TaterConfig.Defaults.html" title="class in org.samo_lego.taterzens.storage"><span class="typeNameLink">TaterConfig.Defaults</span></a></li>
+<li type="circle">org.samo_lego.taterzens.storage.<a href="org/samo_lego/taterzens/storage/TaterConfig.Path.html" title="class in org.samo_lego.taterzens.storage"><span class="typeNameLink">TaterConfig.Path</span></a></li>
+<li type="circle">org.samo_lego.taterzens.storage.<a href="org/samo_lego/taterzens/storage/TaterConfig.Path.Color.html" title="class in org.samo_lego.taterzens.storage"><span class="typeNameLink">TaterConfig.Path.Color</span></a></li>
 <li type="circle">org.samo_lego.taterzens.storage.<a href="org/samo_lego/taterzens/storage/TaterLang.html" title="class in org.samo_lego.taterzens.storage"><span class="typeNameLink">TaterLang</span></a></li>
 <li type="circle">org.samo_lego.taterzens.storage.<a href="org/samo_lego/taterzens/storage/TaterLang.Error.html" title="class in org.samo_lego.taterzens.storage"><span class="typeNameLink">TaterLang.Error</span></a></li>
 <li type="circle">org.samo_lego.taterzens.storage.<a href="org/samo_lego/taterzens/storage/TaterLang.Success.html" title="class in org.samo_lego.taterzens.storage"><span class="typeNameLink">TaterLang.Success</span></a></li>
 <li type="circle">org.samo_lego.taterzens.<a href="org/samo_lego/taterzens/Taterzens.html" title="class in org.samo_lego.taterzens"><span class="typeNameLink">Taterzens</span></a> (implements net.fabricmc.api.ModInitializer)</li>
+<li type="circle">org.samo_lego.taterzens.api.<a href="org/samo_lego/taterzens/api/TaterzensAPI.html" title="class in org.samo_lego.taterzens.api"><span class="typeNameLink">TaterzensAPI</span></a></li>
 <li type="circle">org.samo_lego.taterzens.commands.<a href="org/samo_lego/taterzens/commands/TaterzensCommand.html" title="class in org.samo_lego.taterzens.commands"><span class="typeNameLink">TaterzensCommand</span></a></li>
 <li type="circle">org.samo_lego.taterzens.util.<a href="org/samo_lego/taterzens/util/TextUtil.html" title="class in org.samo_lego.taterzens.util"><span class="typeNameLink">TextUtil</span></a></li>
 </ul>
@@ -123,13 +147,13 @@
 </ul>
 <h2 title="Interface Hierarchy">Interface Hierarchy</h2>
 <ul>
-<li type="circle">org.samo_lego.taterzens.mixin.accessors.<a href="org/samo_lego/taterzens/mixin/accessors/EntitySetHeadYawS2CPacketAccessor.html" title="interface in org.samo_lego.taterzens.mixin.accessors"><span class="typeNameLink">EntitySetHeadYawS2CPacketAccessor</span></a></li>
 <li type="circle">org.samo_lego.taterzens.mixin.accessors.<a href="org/samo_lego/taterzens/mixin/accessors/EntitySpawnS2CPacketAccessor.html" title="interface in org.samo_lego.taterzens.mixin.accessors"><span class="typeNameLink">EntitySpawnS2CPacketAccessor</span></a></li>
 <li type="circle">org.samo_lego.taterzens.mixin.accessors.<a href="org/samo_lego/taterzens/mixin/accessors/EntityTrackerEntryAccessor.html" title="interface in org.samo_lego.taterzens.mixin.accessors"><span class="typeNameLink">EntityTrackerEntryAccessor</span></a></li>
 <li type="circle">org.samo_lego.taterzens.mixin.accessors.<a href="org/samo_lego/taterzens/mixin/accessors/MobSpawnS2CPacketAccessor.html" title="interface in org.samo_lego.taterzens.mixin.accessors"><span class="typeNameLink">MobSpawnS2CPacketAccessor</span></a></li>
 <li type="circle">org.samo_lego.taterzens.mixin.accessors.<a href="org/samo_lego/taterzens/mixin/accessors/PlayerListS2CPacketAccessor.html" title="interface in org.samo_lego.taterzens.mixin.accessors"><span class="typeNameLink">PlayerListS2CPacketAccessor</span></a></li>
 <li type="circle">org.samo_lego.taterzens.mixin.accessors.<a href="org/samo_lego/taterzens/mixin/accessors/PlayerSpawnS2CPacketAccessor.html" title="interface in org.samo_lego.taterzens.mixin.accessors"><span class="typeNameLink">PlayerSpawnS2CPacketAccessor</span></a></li>
 <li type="circle">org.samo_lego.taterzens.interfaces.<a href="org/samo_lego/taterzens/interfaces/TaterzenEditor.html" title="interface in org.samo_lego.taterzens.interfaces"><span class="typeNameLink">TaterzenEditor</span></a></li>
+<li type="circle">org.samo_lego.taterzens.interfaces.<a href="org/samo_lego/taterzens/interfaces/TaterzenPlayer.html" title="interface in org.samo_lego.taterzens.interfaces"><span class="typeNameLink">TaterzenPlayer</span></a></li>
 <li type="circle">org.samo_lego.taterzens.mixin.accessors.<a href="org/samo_lego/taterzens/mixin/accessors/ThreadedAnvilChunkStorageAccessor.html" title="interface in org.samo_lego.taterzens.mixin.accessors"><span class="typeNameLink">ThreadedAnvilChunkStorageAccessor</span></a></li>
 </ul>
 <h2 title="Enum Hierarchy">Enum Hierarchy</h2>
