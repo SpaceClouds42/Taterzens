@@ -122,6 +122,8 @@ var activeTableTab = "activeTableTab";
 <br>
 <pre>public static enum <span class="typeNameLabel">NPCData.Movement</span>
 extends java.lang.Enum&lt;<a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html" title="enum in org.samo_lego.taterzens.npc">NPCData.Movement</a>&gt;</pre>
+<div class="block">Types of movement a Taterzen can perform.
+ FORCED types will always follow the type strictly.</div>
 </li>
 </ul>
 </div>
@@ -140,22 +142,34 @@ extends java.lang.Enum&lt;<a href="../../../../org/samo_lego/taterzens/npc/NPCDa
 <th class="colOne" scope="col">Enum Constant and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#FORCED_LOOK">FORCED_LOOK</a></span></code>&nbsp;</td>
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#FORCED_LOOK">FORCED_LOOK</a></span></code>
+<div class="block">Rotation of the body and head when a player is in radius of 4 blocks.</div>
+</td>
 </tr>
 <tr class="rowColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#FORCED_PATH">FORCED_PATH</a></span></code>&nbsp;</td>
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#FORCED_PATH">FORCED_PATH</a></span></code>
+<div class="block">Forced movement to the selected nodes from pathTargets.</div>
+</td>
 </tr>
 <tr class="altColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#FREE">FREE</a></span></code>&nbsp;</td>
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#FREE">FREE</a></span></code>
+<div class="block">Wandering around at Taterzen's will.</div>
+</td>
 </tr>
 <tr class="rowColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#LOOK">LOOK</a></span></code>&nbsp;</td>
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#LOOK">LOOK</a></span></code>
+<div class="block">Rotation of the body and head, free at Taterzen's will.</div>
+</td>
 </tr>
 <tr class="altColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#NONE">NONE</a></span></code>&nbsp;</td>
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#NONE">NONE</a></span></code>
+<div class="block">No movement at all.</div>
+</td>
 </tr>
 <tr class="rowColor">
-<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#PATH">PATH</a></span></code>&nbsp;</td>
+<td class="colOne"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html#PATH">PATH</a></span></code>
+<div class="block">Movement to the selected nodes from pathTargets, at Taterzen's will.</div>
+</td>
 </tr>
 </table>
 </li>
@@ -221,6 +235,7 @@ the order they are declared.</div>
 <li class="blockList">
 <h4>NONE</h4>
 <pre>public static final&nbsp;<a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html" title="enum in org.samo_lego.taterzens.npc">NPCData.Movement</a> NONE</pre>
+<div class="block">No movement at all.</div>
 </li>
 </ul>
 <a name="LOOK">
@@ -230,6 +245,7 @@ the order they are declared.</div>
 <li class="blockList">
 <h4>LOOK</h4>
 <pre>public static final&nbsp;<a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html" title="enum in org.samo_lego.taterzens.npc">NPCData.Movement</a> LOOK</pre>
+<div class="block">Rotation of the body and head, free at Taterzen's will.</div>
 </li>
 </ul>
 <a name="FORCED_LOOK">
@@ -239,6 +255,7 @@ the order they are declared.</div>
 <li class="blockList">
 <h4>FORCED_LOOK</h4>
 <pre>public static final&nbsp;<a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html" title="enum in org.samo_lego.taterzens.npc">NPCData.Movement</a> FORCED_LOOK</pre>
+<div class="block">Rotation of the body and head when a player is in radius of 4 blocks.</div>
 </li>
 </ul>
 <a name="PATH">
@@ -248,6 +265,7 @@ the order they are declared.</div>
 <li class="blockList">
 <h4>PATH</h4>
 <pre>public static final&nbsp;<a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html" title="enum in org.samo_lego.taterzens.npc">NPCData.Movement</a> PATH</pre>
+<div class="block">Movement to the selected nodes from pathTargets, at Taterzen's will.</div>
 </li>
 </ul>
 <a name="FORCED_PATH">
@@ -257,6 +275,7 @@ the order they are declared.</div>
 <li class="blockList">
 <h4>FORCED_PATH</h4>
 <pre>public static final&nbsp;<a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html" title="enum in org.samo_lego.taterzens.npc">NPCData.Movement</a> FORCED_PATH</pre>
+<div class="block">Forced movement to the selected nodes from pathTargets.</div>
 </li>
 </ul>
 <a name="FREE">
@@ -266,6 +285,7 @@ the order they are declared.</div>
 <li class="blockList">
 <h4>FREE</h4>
 <pre>public static final&nbsp;<a href="../../../../org/samo_lego/taterzens/npc/NPCData.Movement.html" title="enum in org.samo_lego.taterzens.npc">NPCData.Movement</a> FREE</pre>
+<div class="block">Wandering around at Taterzen's will.</div>
 </li>
 </ul>
 </li>
