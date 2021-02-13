@@ -11,5 +11,5 @@ nav_order: 1
 ---
 
 
-Taterzens mod can be grabbed from Modrinth or CurseForge (once it's stable), but for now,
+Taterzens mod can be grabbed from [Modrinth](https://modrinth.com/mod/Taterzens) or CurseForge (once it's stable), but for now,
 you'll have to build it yourself.
