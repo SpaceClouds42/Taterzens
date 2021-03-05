@@ -17,7 +17,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -158,13 +158,21 @@ implements <a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEdito
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#inPathEditMode--">inPathEditMode</a></span>()</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#inMsgEditMode--">inMsgEditMode</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i2" class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#inPathEditMode--">inPathEditMode</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i3" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#selectNpc-org.samo_lego.taterzens.npc.TaterzenNPC-">selectNpc</a></span>(@Nullable <a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html" title="class in org.samo_lego.taterzens.npc">TaterzenNPC</a>&nbsp;npc)</code>&nbsp;</td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i4" class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#setMsgEditMode-boolean-">setMsgEditMode</a></span>(boolean&nbsp;editMode)</code>&nbsp;</td>
+</tr>
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#setPathEditMode-boolean-">setPathEditMode</a></span>(boolean&nbsp;editMode)</code>
 <div class="block">Sets whether player is in path edit mode.</div>
@@ -253,10 +261,23 @@ public&nbsp;@Nullable <a href="../../../../org/samo_lego/taterzens/npc/TaterzenN
 </dl>
 </li>
 </ul>
+<a name="inMsgEditMode--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>inMsgEditMode</h4>
+<pre>public&nbsp;boolean&nbsp;inMsgEditMode()</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html#inMsgEditMode--">inMsgEditMode</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html" title="interface in org.samo_lego.taterzens.interfaces">TaterzenEditor</a></code></dd>
+</dl>
+</li>
+</ul>
 <a name="setPathEditMode-boolean-">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>setPathEditMode</h4>
 <pre>public&nbsp;void&nbsp;setPathEditMode(boolean&nbsp;editMode)</pre>
@@ -269,6 +290,19 @@ public&nbsp;@Nullable <a href="../../../../org/samo_lego/taterzens/npc/TaterzenN
 <dd><code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html#setPathEditMode-boolean-">setPathEditMode</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html" title="interface in org.samo_lego.taterzens.interfaces">TaterzenEditor</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>editMode</code> - whether player should enter path edit mode.</dd>
+</dl>
+</li>
+</ul>
+<a name="setMsgEditMode-boolean-">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>setMsgEditMode</h4>
+<pre>public&nbsp;void&nbsp;setMsgEditMode(boolean&nbsp;editMode)</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html#setMsgEditMode-boolean-">setMsgEditMode</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html" title="interface in org.samo_lego.taterzens.interfaces">TaterzenEditor</a></code></dd>
 </dl>
 </li>
 </ul>
