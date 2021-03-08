@@ -17,7 +17,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10};
+var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -151,28 +151,36 @@ implements <a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEdito
 <th class="colLast" scope="col">Method and Description</th>
 </tr>
 <tr id="i0" class="altColor">
+<td class="colFirst"><code>int</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#getMessageEditing--">getMessageEditing</a></span>()</code>&nbsp;</td>
+</tr>
+<tr id="i1" class="rowColor">
 <td class="colFirst"><code>@Nullable <a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html" title="class in org.samo_lego.taterzens.npc">TaterzenNPC</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#getNpc--">getNpc</a></span>()</code>
 <div class="block">Gets the selected <a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html" title="class in org.samo_lego.taterzens.npc"><code>TaterzenNPC</code></a> if player has it.</div>
 </td>
 </tr>
-<tr id="i1" class="rowColor">
+<tr id="i2" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#inMsgEditMode--">inMsgEditMode</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i2" class="altColor">
+<tr id="i3" class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#inPathEditMode--">inPathEditMode</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i4" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#selectNpc-org.samo_lego.taterzens.npc.TaterzenNPC-">selectNpc</a></span>(@Nullable <a href="../../../../org/samo_lego/taterzens/npc/TaterzenNPC.html" title="class in org.samo_lego.taterzens.npc">TaterzenNPC</a>&nbsp;npc)</code>&nbsp;</td>
 </tr>
-<tr id="i4" class="altColor">
+<tr id="i5" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#setMessageEditing-int-">setMessageEditing</a></span>(int&nbsp;selected)</code>&nbsp;</td>
+</tr>
+<tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#setMsgEditMode-boolean-">setMsgEditMode</a></span>(boolean&nbsp;editMode)</code>&nbsp;</td>
 </tr>
-<tr id="i5" class="rowColor">
+<tr id="i7" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../org/samo_lego/taterzens/mixin/ServerPlayerEntityMixinCast_TaterzenEditor.html#setPathEditMode-boolean-">setPathEditMode</a></span>(boolean&nbsp;editMode)</code>
 <div class="block">Sets whether player is in path edit mode.</div>
@@ -296,13 +304,39 @@ public&nbsp;@Nullable <a href="../../../../org/samo_lego/taterzens/npc/TaterzenN
 <a name="setMsgEditMode-boolean-">
 <!--   -->
 </a>
-<ul class="blockListLast">
+<ul class="blockList">
 <li class="blockList">
 <h4>setMsgEditMode</h4>
 <pre>public&nbsp;void&nbsp;setMsgEditMode(boolean&nbsp;editMode)</pre>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html#setMsgEditMode-boolean-">setMsgEditMode</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html" title="interface in org.samo_lego.taterzens.interfaces">TaterzenEditor</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="setMessageEditing-int-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setMessageEditing</h4>
+<pre>public&nbsp;void&nbsp;setMessageEditing(int&nbsp;selected)</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html#setMessageEditing-int-">setMessageEditing</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html" title="interface in org.samo_lego.taterzens.interfaces">TaterzenEditor</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getMessageEditing--">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>getMessageEditing</h4>
+<pre>public&nbsp;int&nbsp;getMessageEditing()</pre>
+<dl>
+<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
+<dd><code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html#getMessageEditing--">getMessageEditing</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../org/samo_lego/taterzens/interfaces/TaterzenEditor.html" title="interface in org.samo_lego.taterzens.interfaces">TaterzenEditor</a></code></dd>
 </dl>
 </li>
 </ul>
