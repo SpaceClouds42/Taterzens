@@ -6,12 +6,12 @@ grand_parent: Play
 ---
 
 
-# new right-click command action
+# New right-click command action
 
 ---
 
 
-## Adding new messages to Taterzen
+## Adding new command to Taterzen
 
 It's as simple as using
 ```
