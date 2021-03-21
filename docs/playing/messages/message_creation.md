@@ -53,4 +53,4 @@ This would send a following-like text:
 ```
 {"text":"Discord invite!","color":"gold","bold":true,"italic":true,"clickEvent":{"action":"open_url","value":"https://discord.gg/9PAesuHFnp"}}
 ```
-3. Paste it in chat and NPC will parse it.
+3. Send it in chat and NPC will parse it.
